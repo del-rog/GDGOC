@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, angka;
+
+    cout << "Masukkan jumlah data: ";
+    cin >> n;
+ 
+    for (int i = 1; i <= n; i++) {
+        cout << "Masukkan angka ke-" << i << ": ";
+        cin >> angka;
+        
+        if (angka > 0) {
+            cout << angka << " adalah POSITIF" << endl;
+        } else if (angka < 0) {
+            cout << angka << " adalah NEGATIF" << endl;
+        } else {
+            cout << angka << " adalah NOL" << endl;
+        }
+    }
+
+    return 0;
+}
