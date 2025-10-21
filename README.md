@@ -1,0 +1,2 @@
+# GDGOC
+Commit Pertama Sayaa
